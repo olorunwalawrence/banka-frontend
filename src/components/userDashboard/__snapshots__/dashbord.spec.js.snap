@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Test should display the layout for creating an account properly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <Connect(Dashboard)>
+        <Dashboard
+          accounts={
+            Array [
+              Object {
+                "accountnumber": 553373313,
+                "balance": 0,
+                "createdon": "2019-08-12T00:00:00.000Z",
+                "id": 1,
+                "owner": 2,
+                "owneremail": "mike@email.com",
+                "status": "active",
+                "type": "savings",
+              },
+            ]
+          }
+          checkLoggedUser={[Function]}
+          getAccount={[Function]}
+          isLoading={false}
+          logout={[Function]}
+          user={
+            Object {
+              "email": "mike@email.com",
+              "firstname": "Prince",
+              "id": 2,
+              "isadmin": false,
+              "lastname": "mike",
+              "type": "user",
+            }
+          }
+        >
+          <Connect(UserHeader)>
+            <UserHeader
+              logout={[Function]}
+            >
+              <div
+                className="container"
+                id="heed"
+              >
+                <h1
+                  className="white"
+                >
+                  <span>
+                    <button
+                      className="drop-butn nn hiden"
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="icofont-navigation-menu icofont-2x"
+                      />
+                    </button>
+                    MyBanka
+                  </span>
+                </h1>
+              </div>
+              <ul
+                className=" drop-menu hide"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                <Link
+                  to="/home"
+                >
+                  <a
+                    href="/home"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Dashboard
+                    </li>
+                  </a>
+                </Link>
+                <Link
+                  to="/account"
+                >
+                  <a
+                    href="/account"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Create Account
+                    </li>
+                  </a>
+                </Link>
+                <Link
+                  onClick={[Function]}
+                  to="/"
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Logout
+                    </li>
+                  </a>
+                </Link>
+              </ul>
+            </UserHeader>
+          </Connect(UserHeader)>
+          <main
+            className="flex"
+          >
+            <div
+              className="one-third aside"
+            >
+              <ul
+                className="user"
+              >
+                <li>
+                  <Link
+                    to="/home"
+                  >
+                    <a
+                      href="/home"
+                      onClick={[Function]}
+                    >
+                      Dashboard
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/account"
+                  >
+                    <a
+                      href="/account"
+                      onClick={[Function]}
+                    >
+                      Create Account
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={[Function]}
+                    to="/"
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Logout
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="two-third main"
+            >
+              <div />
+            </div>
+          </main>
+        </Dashboard>
+      </Connect(Dashboard)>
+    </Provider>
+  </Router>
+</BrowserRouter>
+`;
