@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Test should display the layout for creating an account properly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(OpenAccountForm)>
+    <OpenAccountForm
+      account={Object {}}
+      error=""
+      isLoading={false}
+      openAccount={[Function]}
+      success=""
+    >
+      <div
+        className="form sm-grid"
+      >
+        <div
+          className="container x"
+        >
+          <div
+            className="dialog m"
+          />
+          <div
+            className="form-card"
+          >
+            <h2>
+              Open Account
+            </h2>
+            <div />
+            <form
+              onSubmit={[Function]}
+            >
+              <label>
+                Account type
+              </label>
+              <div
+                className="form-group"
+              >
+                <select
+                  className="select"
+                  defaultValue="Choose an account type"
+                  id="select"
+                  onChange={[Function]}
+                >
+                  <option
+                    disabled={true}
+                  >
+                    Choose an account type
+                  </option>
+                  <option
+                    value="current"
+                  >
+                    Current
+                  </option>
+                  <option
+                    value="savings"
+                  >
+                    Savings
+                  </option>
+                </select>
+              </div>
+              <div
+                className="form-group"
+              >
+                <button
+                  className="btn btn-green"
+                  id="createAccount"
+                  type="submit"
+                >
+                  Create
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </OpenAccountForm>
+  </Connect(OpenAccountForm)>
+</Provider>
+`;
+
+exports[`Layout Test should display the layout for creating an account properly 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <Connect(Layout)>
+        <Layout
+          dispatch={[Function]}
+          user={
+            Object {
+              "email": "mike@email.com",
+              "firstname": "Prince",
+              "id": 2,
+              "isadmin": false,
+              "lastname": "mike",
+              "type": "user",
+            }
+          }
+        >
+          <Connect(UserHeader)>
+            <UserHeader
+              logout={[Function]}
+            >
+              <div
+                className="container"
+                id="heed"
+              >
+                <h1
+                  className="white"
+                >
+                  <span>
+                    <button
+                      className="drop-butn nn hiden"
+                      onMouseDown={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="icofont-navigation-menu icofont-2x"
+                      />
+                    </button>
+                    MyBanka
+                  </span>
+                </h1>
+              </div>
+              <ul
+                className=" drop-menu hide"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
+              >
+                <Link
+                  to="/home"
+                >
+                  <a
+                    href="/home"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Dashboard
+                    </li>
+                  </a>
+                </Link>
+                <Link
+                  to="/account"
+                >
+                  <a
+                    href="/account"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Create Account
+                    </li>
+                  </a>
+                </Link>
+                <Link
+                  onClick={[Function]}
+                  to="/"
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    <li>
+                      Logout
+                    </li>
+                  </a>
+                </Link>
+              </ul>
+            </UserHeader>
+          </Connect(UserHeader)>
+          <main
+            className="flex"
+          >
+            <div
+              className="one-third aside"
+            >
+              <ul
+                className="user"
+              >
+                <li>
+                  <Link
+                    to="/home"
+                  >
+                    <a
+                      href="/home"
+                      onClick={[Function]}
+                    >
+                      Dashboard
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/account"
+                  >
+                    <a
+                      href="/account"
+                      onClick={[Function]}
+                    >
+                      Create Account
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    onClick={[Function]}
+                    to="/"
+                  >
+                    <a
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Logout
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="two-third main"
+            >
+              <Connect(OpenAccountForm)>
+                <OpenAccountForm
+                  account={Object {}}
+                  error=""
+                  isLoading={false}
+                  openAccount={[Function]}
+                  success=""
+                >
+                  <div
+                    className="form sm-grid"
+                  >
+                    <div
+                      className="container x"
+                    >
+                      <div
+                        className="dialog m"
+                      />
+                      <div
+                        className="form-card"
+                      >
+                        <h2>
+                          Open Account
+                        </h2>
+                        <div />
+                        <form
+                          onSubmit={[Function]}
+                        >
+                          <label>
+                            Account type
+                          </label>
+                          <div
+                            className="form-group"
+                          >
+                            <select
+                              className="select"
+                              defaultValue="Choose an account type"
+                              id="select"
+                              onChange={[Function]}
+                            >
+                              <option
+                                disabled={true}
+                              >
+                                Choose an account type
+                              </option>
+                              <option
+                                value="current"
+                              >
+                                Current
+                              </option>
+                              <option
+                                value="savings"
+                              >
+                                Savings
+                              </option>
+                            </select>
+                          </div>
+                          <div
+                            className="form-group"
+                          >
+                            <button
+                              className="btn btn-green"
+                              id="createAccount"
+                              type="submit"
+                            >
+                              Create
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </OpenAccountForm>
+              </Connect(OpenAccountForm)>
+            </div>
+          </main>
+        </Layout>
+      </Connect(Layout)>
+    </Provider>
+  </Router>
+</BrowserRouter>
+`;
