@@ -36,6 +36,7 @@ class SignupForm extends Component {
     }
     return <div className='alert alert-danger text-center'>{error}</div>;
   }
+  
   render = () => {
     return (
       <>
