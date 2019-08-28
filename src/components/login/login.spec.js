@@ -10,7 +10,7 @@ import LoginLayout from './loginLayout';
 
 const store = createStore(rootReducer, {}, applyMiddleware(thunk));
 
-describe('LoginLayout Test', () => {
+describe.only('LoginLayout Test', () => {
   let wrapper;
   it('should display the signup properly', () => {
     wrapper = mount(

@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the App component correctly 1`] = `
+<Fragment>
+  <_default />
+</Fragment>
+`;
+
+exports[`Header should hide the div with className .drop-menu on button click 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(UserHeader)>
+        <UserHeader
+          logout={[Function]}
+        >
+          <div
+            className="container"
+            id="heed"
+          >
+            <h1
+              className="white"
+            >
+              <span>
+                <button
+                  className="drop-butn nn hiden"
+                  onMouseDown={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="icofont-navigation-menu icofont-2x"
+                  />
+                </button>
+                MyBanka
+              </span>
+            </h1>
+          </div>
+          <ul
+            className=" drop-menu hide"
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+          >
+            <Link
+              to="/home"
+            >
+              <a
+                href="/home"
+                onClick={[Function]}
+              >
+                <li>
+                  Dashboard
+                </li>
+              </a>
+            </Link>
+            <Link
+              to="/account"
+            >
+              <a
+                href="/account"
+                onClick={[Function]}
+              >
+                <li>
+                  Create Account
+                </li>
+              </a>
+            </Link>
+            <Link
+              onClick={[Function]}
+              to="/"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                <li>
+                  Logout
+                </li>
+              </a>
+            </Link>
+          </ul>
+        </UserHeader>
+      </Connect(UserHeader)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;
+
+exports[`Header should render the header for the application correctly 1`] = `
+<Fragment>
+  <header
+    className="header grid-l"
+  >
+    <div
+      className="container"
+    >
+      <h1>
+        MyBanka
+      </h1>
+    </div>
+  </header>
+</Fragment>
+`;
+
+exports[`Landing page shoul render the landing page for the application correctly 1`] = `
+<Fragment>
+  <header
+    className="grid head"
+  >
+    <div
+      className="image"
+    />
+    <div
+      className="container"
+    >
+      <h1>
+        <strong>
+          B
+        </strong>
+        anka
+      </h1>
+      <p>
+         We keep our words ....
+      </p>
+      <Link
+        className="btn btn-green"
+        style={
+          Object {
+            "marginRight": "5px",
+          }
+        }
+        to="/login"
+      >
+        Login
+      </Link>
+      <Link
+        className="btn btn-border-y"
+        to="/signup"
+      >
+        Signup
+      </Link>
+    </div>
+  </header>
+</Fragment>
+`;
+
+exports[`Login page shoul render the landing page for the application correctly 1`] = `
+<Fragment>
+  <_default />
+</Fragment>
+`;
+
+exports[`Routes should render the routes for the application correctly 1`] = `
+<BrowserRouter>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/signup"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/home"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/login"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/account"
+    />
+  </Switch>
+</BrowserRouter>
+`;
+
+exports[`Signup page shoul render the landing page for the application correctly 1`] = `
+<Fragment>
+  <_default />
+</Fragment>
+`;
