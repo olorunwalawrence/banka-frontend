@@ -51,20 +51,25 @@ class SignupForm extends Component {
                 <input type="text" className="form-control" name="firstname" id="firstName" onChange={this.handleChange} />
               </div>
             </div>
+
             <div id="input-half">
               <label htmlFor='lastName'>Lastname</label>
               <div className="form-group">
                 <input type="text" className="form-control" name="lastname" id="lastName" onChange={this.handleChange} />
               </div>
             </div>
+
+
             <label htmlFor='email'>Email</label>
             <div className="form-group">
               <input type="email" className="form-control" name="email" id="email" onChange={this.handleChange} />
             </div>
+
             <label htmlFor='password'>Password</label>
             <div className="form-group">
               <input type="password" className="form-control" name="password" id="password" onChange={this.handleChange} />
             </div>
+            
             <div className="form-group">
               <button type="submit" className="btn btn-green" id="signup">Create</button>
             </div>
