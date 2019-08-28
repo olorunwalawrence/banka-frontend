@@ -51,7 +51,6 @@ class SignupForm extends Component {
                 <input type="text" className="form-control" name="firstname" id="firstName" onChange={this.handleChange} />
               </div>
             </div>
-
             <div id="input-half">
               <label htmlFor='lastName'>Lastname</label>
               <div className="form-group">
